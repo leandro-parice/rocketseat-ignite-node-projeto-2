@@ -9,3 +9,7 @@ app.register(cookie)
 app.register(transactionsRoutes, {
   prefix: 'transactions',
 })
+
+app.get('/', () => {
+  return 'ok'
+})
