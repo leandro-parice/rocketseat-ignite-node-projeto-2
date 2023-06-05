@@ -11,5 +11,5 @@ app.register(transactionsRoutes, {
 })
 
 app.get('/', () => {
-  return 'ok'
+  return 'Rocketseat 💜 - Ignite NodeJS API'
 })

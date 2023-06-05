@@ -1,20 +1,35 @@
-# rocketseat-ignite-node-projeto-2
+# Ignite - NodeJS
 
-Requisitos Funcionais(RF)
+#### Rocketseat Projeto-2
 
-[x] - O usuário deve poder criar uma conta;
+Repositório criado para o desenvolvimento e estudo da trilha Ignite NodeJS da 💜[Rocketseat](https://www.rocketseat.com.br/)
 
-[x] - O usuário deve poder obter um extrato da sua conta;
+### Tecnologias / Linguagens de programação
 
-[x] - O usuário deve poder listar todas transações que já ocorreram;
+- Javascript
+- NodeJS
+- GitHub
+- Typescript
+- Fastify
+- Knex
+- Zod
+- PostgreSQL
+- SQLite
+- Vitest
 
-[x] - O usuário deve poder visualizar uma transação única;
+### Instalação
 
+    npm install
 
-Regras de Negócios(RN)
+### Rodar o servidor
 
-[x] - A transação pode do tipo crédito que somará ao valor total, ou débito que será subtraído;
+    npm run dev
 
-[x] - Deve ser possível identificar o usuário entre as requisições;
+# REST API
 
-[x] - O usuário só pode visualizar transações que ele criou;
+A API REST para o aplicativo de exemplo é descrita abaixo.
+
+- Criação da transação:       `POST /transactions`
+- Listagem das transações:    `GET  /transactions`
+- Listagem de uma transação:  `GET  /transactions/:id`
+- Obter saldo:                `GET  /transactions/summary`
